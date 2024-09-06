@@ -1,0 +1,39 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+body{
+    background-color: #081b29;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10px;
+    background-color: transparent;
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+    z-index: 100;
+}
+.logo{
+    font-size: 25px;
+    font-weight: 600;
+    color: #ededed;
+    text-decoration: none;
+}
+.navbar a{
+    font-size: 18px;
+    text-decoration: none;
+    color: #ededed;
+    margin: 35px;
+    transition: 3s;
+}
+.navbar a:hover{
+    color:navy;
+}
